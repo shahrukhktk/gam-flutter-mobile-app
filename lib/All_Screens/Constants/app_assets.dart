@@ -43,5 +43,11 @@ class Strings_Text
   static const String resetpasswordtag="Veuillez envoyer votre e-mail pour réinitialiser votre mot de passe !";
   static const String submit="Soumettre";
 
+  static const String expiry = "Expiration   04/2020";
+  static const String username = "Martial Bogra";
+  static const String lic_num = "FJ - 93432 - 3244";
+  static const String address = "Lome, Togo";
+
+
 
 }

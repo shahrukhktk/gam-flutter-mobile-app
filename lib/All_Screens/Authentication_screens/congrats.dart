@@ -3,6 +3,7 @@ import 'package:gam/All_Screens/Authentication_screens/login.dart';
 import 'package:gam/All_Screens/Authentication_screens/signup.dart';
 import 'package:gam/All_Screens/Constants/app_assets.dart';
 import 'package:gam/All_Screens/Constants/custom_textfield.dart';
+import 'package:gam/All_Screens/main_screens/profile.dart';
 
 class CongratScreen extends StatefulWidget {
   @override
@@ -65,7 +66,7 @@ class _CongratScreenState extends State<CongratScreen> {
                 child: FlatButton(
                   onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => SignupScreen()));
+                          MaterialPageRoute(builder: (context) => ProfileScreen()));
                   },
                   child: SizedBox(
                     height: 55,

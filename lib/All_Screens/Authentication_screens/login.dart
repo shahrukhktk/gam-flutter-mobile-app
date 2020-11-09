@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:gam/All_Screens/Authentication_screens/resetpassword.dart';
 import 'package:gam/All_Screens/Authentication_screens/signup.dart';
 import 'package:gam/All_Screens/Constants/app_assets.dart';
 import 'package:gam/All_Screens/Constants/custom_textfield.dart';
+import 'package:gam/All_Screens/main_screens/profile.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -73,12 +75,19 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
 
-              Padding(
-                padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 25, bottom: 25),
-                child: Text(Strings_Text.forgotpassword, style: TextStyle(
-                    fontSize: 14, fontWeight: FontWeight.normal, color: AppColors.themecolor
+              GestureDetector(
+                onTap: ()
+                {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => ResetPasswordScreen()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 25, bottom: 25),
+                  child: Text(Strings_Text.forgotpassword, style: TextStyle(
+                      fontSize: 14, fontWeight: FontWeight.normal, color: AppColors.themecolor
+                  ),
+                  textAlign: TextAlign.end,),
                 ),
-                textAlign: TextAlign.end,),
               ),
 
               Padding(
@@ -86,7 +95,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: FlatButton(
                   onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => SignupScreen()));
+                          MaterialPageRoute(builder: (context) => ProfileScreen()));
                   },
                   child: SizedBox(
                     height: 55,
