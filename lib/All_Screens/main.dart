@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'Authentication_screens/signup.dart';
+import 'package:gam/All_Screens/Authentication_screens/login.dart';
 import 'Constants/app_assets.dart';
 
 void main() => runApp(new MaterialApp(
@@ -10,5 +9,5 @@ void main() => runApp(new MaterialApp(
     fontFamily: "Poppins",
   ),
   debugShowCheckedModeBanner: false,
-  home: SignupScreen(),
+  home: LoginScreen(),
 ));

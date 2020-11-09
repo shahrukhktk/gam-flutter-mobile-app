@@ -16,7 +16,7 @@ class Strings_Text
   static const String createaccount="Créer un compte";
   static const String privacy_text="Créer un compte signifie que vous êtes d'accord nos conditions d'utilisation et notre politique deconfidentialité";
   static const String signupwith="Se connecter avec:";
-  static const String signinoption="Vous avez déjà un compte? Se connecter";
+  static const String signinoption="Vous avez déjà un compte?";
   static const String firstname="Prénom";
   static const String lastname="Nom de famille";
   static const String email="Email";
@@ -24,12 +24,14 @@ class Strings_Text
   static const String password="Mot de passe";
 
   //signin page text
-  static const String singin="Se connecter !";
-  static const String signintag="Bienvenue à nouveau sur votre compte!";
+  static const String signin="Se connecter !";
+  static const String signintag="Bienvenue à nouveau sur votre compte !";
   static const String forgotpassword="Mot de passe oublié?";
   static const String login="S'identifier";
   static const String loginwith="Connectez-vous avec:";
-  static const String joinusnow="Nouveau membre? Rejoignez nous maintenant";
+  static const String joinusnow="Nouveau membre?";
+  static const String register="Rejoignez nous maintenant";
+
 
   //congrats page text
   static const String congrats="Félicitations !";

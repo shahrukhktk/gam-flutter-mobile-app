@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:gam/All_Screens/Constants/app_assets.dart';
 import 'package:gam/All_Screens/Constants/custom_textfield.dart';
 
-class SignupScreen extends StatefulWidget {
+class LoginScreen extends StatefulWidget {
   @override
-  _SignupScreenState createState() => _SignupScreenState();
+  _LoginScreenState createState() => _LoginScreenState();
 }
 
-class _SignupScreenState extends State<SignupScreen> {
+class _LoginScreenState extends State<LoginScreen> {
 
   AppColors appassets = new AppColors();
 
@@ -40,13 +40,13 @@ class _SignupScreenState extends State<SignupScreen> {
                     ),
                     Padding(
                       padding: const EdgeInsets.only(top: 15.0),
-                      child: Text(Strings_Text.signup, style: TextStyle(
+                      child: Text(Strings_Text.signin, style: TextStyle(
                           fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black
                       ),),
                     ),
                     Padding(
                       padding: const EdgeInsets.only(top: 5.0),
-                      child: Text(Strings_Text.signuptag, style: TextStyle(
+                      child: Text(Strings_Text.signintag, style: TextStyle(
                           fontSize: 16, fontWeight: FontWeight.w300, color: Colors.grey
                       ),),
                     ),
@@ -58,24 +58,10 @@ class _SignupScreenState extends State<SignupScreen> {
                 padding: const EdgeInsets.only(top: 25.0),
                 child: Column(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: textFieldWidget(text: Strings_Text.firstname,),
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: textFieldWidget(text: Strings_Text.lastname,),
-                    ),
 
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: textFieldWidget(text: Strings_Text.email,),
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: textFieldWidget(text: Strings_Text.phone,),
                     ),
 
                     Padding(
@@ -87,10 +73,11 @@ class _SignupScreenState extends State<SignupScreen> {
               ),
 
               Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(Strings_Text.privacy_text, style: TextStyle(
-                    fontSize: 14, fontWeight: FontWeight.normal, color: Colors.grey
-                ),),
+                padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 25, bottom: 25),
+                child: Text(Strings_Text.forgotpassword, style: TextStyle(
+                    fontSize: 14, fontWeight: FontWeight.normal, color: AppColors.themecolor
+                ),
+                textAlign: TextAlign.end,),
               ),
 
               Padding(
@@ -111,7 +98,7 @@ class _SignupScreenState extends State<SignupScreen> {
                         elevation: 1,
                         color: AppColors.themecolor,
                         child: Center(
-                          child: Text(Strings_Text.createaccount, style: TextStyle(
+                          child: Text(Strings_Text.login, style: TextStyle(
                               color: Colors.white, fontSize: 16.0
                           ),),
                         ),
@@ -126,7 +113,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(Strings_Text.signupwith, style: TextStyle(
+                    Text(Strings_Text.loginwith, style: TextStyle(
                         color: Colors.grey, fontSize: 16.0
                     ),),
                     Row(
@@ -147,17 +134,17 @@ class _SignupScreenState extends State<SignupScreen> {
               ),
 
               Padding(
-                padding: const EdgeInsets.all(12.0),
+                padding: const EdgeInsets.only(left: 12.0, right: 12.0, top: 25, bottom: 15),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Text(Strings_Text.signinoption, style: TextStyle(
+                    Text(Strings_Text.joinusnow, style: TextStyle(
                         color: Colors.grey, fontSize: 13.0
                     ),),
                     Padding(
                       padding: const EdgeInsets.only(left: 5.0),
-                      child: Text(Strings_Text.signin, style: TextStyle(
+                      child: Text(Strings_Text.register, style: TextStyle(
                           color: AppColors.themecolor, fontSize: 13.0
                       ),),
                     ),
