@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gam/All_Screens/Authentication_screens/signup.dart';
 import 'package:gam/All_Screens/Constants/app_assets.dart';
 import 'package:gam/All_Screens/Constants/custom_textfield.dart';
 
@@ -84,8 +85,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 padding: const EdgeInsets.only(top: 15.0, bottom: 15),
                 child: FlatButton(
                   onPressed: () {
-                      // Navigator.push(context,
-                      //     MaterialPageRoute(builder: (context) => OtpPage()));
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => SignupScreen()));
                   },
                   child: SizedBox(
                     height: 55,
@@ -142,11 +143,18 @@ class _LoginScreenState extends State<LoginScreen> {
                     Text(Strings_Text.joinusnow, style: TextStyle(
                         color: Colors.grey, fontSize: 13.0
                     ),),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 5.0),
-                      child: Text(Strings_Text.register, style: TextStyle(
-                          color: AppColors.themecolor, fontSize: 13.0
-                      ),),
+                    GestureDetector(
+                      onTap: ()
+                      {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => SignupScreen()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.only(left: 5.0),
+                        child: Text(Strings_Text.register, style: TextStyle(
+                            color: AppColors.themecolor, fontSize: 13.0
+                        ),),
+                      ),
                     ),
                   ],
                 ),
