@@ -56,6 +56,18 @@ flutter:
     - images/calendar_icon.png
     - images/scan_ic.png
     - lic_user_image.png
+    - images/edit_profileicon.png
+    - images/ic_user_focused.png
+    - images/ic_user_unfocused.png
+    - images/ic_email_foc.png
+    - images/ic_email_unfoc.png
+    - images/ic_phone_foc.png
+    - images/ic_phone_unfoc.png
+    - images/ic_pass_foc.png
+    - images/ic_pass_unfoc.png
+    - images/ic_calendar_foc.png
+    - images/ic_calendar_unfoc.png
+    -
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

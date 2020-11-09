@@ -47,6 +47,12 @@ class Strings_Text
   static const String username = "Martial Bogra";
   static const String lic_num = "FJ - 93432 - 3244";
   static const String address = "Lome, Togo";
+  static const String dob = "D/O/B";
+  static const String updatepassword = "Mettre à jour le mot de passe";
+  static const String saveupdates = "Sauvegarder les modifications";
+
+
+
 
 
 

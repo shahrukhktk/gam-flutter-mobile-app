@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gam/All_Screens/Constants/app_assets.dart';
 
+import 'editprofile.dart';
+
 class ProfileScreen extends StatefulWidget {
   @override
   _ProfileScreenState createState() => _ProfileScreenState();
@@ -40,7 +42,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                 icon: Icon(Icons.arrow_back_ios_rounded, color: Colors.grey,),
                                 onPressed: ()
                                 {
-
+                                  Navigator.pop(context);
                                 },
                               ),
 
@@ -48,13 +50,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                 icon: Image(image: AssetImage('images/edit_icon.png'),),
                                 onPressed: ()
                                 {
-
+                                  Navigator.push(context,
+                                      MaterialPageRoute(builder: (context) => EditProfileScreen()));
                                 },
                               ),
                             ],
                           ),
                         ],
-                      )
+                      ),
                   ),
                 ],
               ),

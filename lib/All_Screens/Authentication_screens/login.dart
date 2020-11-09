@@ -64,12 +64,12 @@ class _LoginScreenState extends State<LoginScreen> {
 
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: textFieldWidget(text: Strings_Text.email,),
+                      child: email_Textfield(text: Strings_Text.email,),
                     ),
 
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: textFieldWidget(text: Strings_Text.password,),
+                      child: password_Textfield(text: Strings_Text.password,),
                     ),
                   ],
                 ),

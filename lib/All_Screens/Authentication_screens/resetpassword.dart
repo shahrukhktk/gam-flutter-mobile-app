@@ -62,7 +62,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
 
                     Padding(
                       padding: const EdgeInsets.all(15.0),
-                      child: textFieldWidget(text: Strings_Text.email,),
+                      child: email_Textfield(text: Strings_Text.email,),
                     ),
 
                   ],
