@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gam/All_Screens/Authentication_screens/login.dart';
-import 'Constants/app_assets.dart';
+import 'All_Screens/Constants/app_assets.dart';
 
 void main() => runApp(new MaterialApp(
   theme: ThemeData(
