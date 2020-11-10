@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gam/All_Screens/Authentication_screens/login.dart';
 import 'Constants/app_assets.dart';
-import 'main_screens/addvehicle.dart';
 
 void main() => runApp(new MaterialApp(
   theme: ThemeData(
@@ -10,5 +9,5 @@ void main() => runApp(new MaterialApp(
     fontFamily: "Poppins",
   ),
   debugShowCheckedModeBanner: false,
-  home: AddNewVehicle(),
+  home: LoginScreen(),
 ));

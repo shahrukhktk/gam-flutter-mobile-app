@@ -3,6 +3,7 @@ import 'package:gam/All_Screens/Authentication_screens/resetpassword.dart';
 import 'package:gam/All_Screens/Authentication_screens/signup.dart';
 import 'package:gam/All_Screens/Constants/app_assets.dart';
 import 'package:gam/All_Screens/Constants/custom_textfield.dart';
+import 'package:gam/All_Screens/main_screens/bottom_nav_activity.dart';
 import 'package:gam/All_Screens/main_screens/profile.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -95,7 +96,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: FlatButton(
                   onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => ProfileScreen()));
+                          MaterialPageRoute(builder: (context) => MainDashboardScreen()));
                   },
                   child: SizedBox(
                     height: 55,
