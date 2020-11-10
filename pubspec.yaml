@@ -67,7 +67,12 @@ flutter:
     - images/ic_pass_unfoc.png
     - images/ic_calendar_foc.png
     - images/ic_calendar_unfoc.png
-    -
+    - images/ic_menu.png
+    - images/car1.png
+    - images/car2.png
+    - images/ic_mileage.png
+    - images/ic_car_insurance.png
+    - images/ic_car.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

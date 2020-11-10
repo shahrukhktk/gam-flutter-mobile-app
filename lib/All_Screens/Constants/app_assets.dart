@@ -51,9 +51,16 @@ class Strings_Text
   static const String updatepassword = "Mettre à jour le mot de passe";
   static const String saveupdates = "Sauvegarder les modifications";
 
-
-
-
-
+  //add vehicle screen text
+  static const String addvehicle = "Ajouter un véhicule";
+  static const String vehiclename = "nom du véhicule";
+  static const String make = "Faire";
+  static const String model = "Modèle";
+  static const String vehicleplatno = "Numéro de plaque du véhicule";
+  static const String reg_num = "Numéro d'enregistrement";
+  static const String vehicle_year = "Année du véhicule";
+  static const String vehicle_mileage = "Kilométrage du véhicule";
+  static const String insurance_num = "Numéro d'assurance";
+  static const String expiry_date = "Date d'expiration";
 
 }

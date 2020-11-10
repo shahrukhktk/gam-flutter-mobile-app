@@ -39,10 +39,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             children: [
 
                               IconButton(
-                                icon: Icon(Icons.arrow_back_ios_rounded, color: Colors.grey,),
+                                icon: Image(image: AssetImage('images/ic_menu.png'),),
                                 onPressed: ()
                                 {
-                                  Navigator.pop(context);
+                                  // Navigator.pop(context);
                                 },
                               ),
 
