@@ -2,8 +2,8 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:gam/All_Screens/Constants/app_assets.dart';
 import 'package:gam/All_Screens/main_screens/addvehicle.dart';
+import 'package:gam/All_Screens/main_screens/chatlist.dart';
 import 'package:gam/All_Screens/main_screens/profile.dart';
-
 import 'home_screen.dart';
 
 class MainDashboardScreen extends StatefulWidget {
@@ -22,6 +22,7 @@ class _MainDashboardScreenState extends State<MainDashboardScreen> {
     final List<Widget> _bottomNavChilds = [
       HomeScreen(),
       AddNewVehicle(),
+      ChatList(),
       ProfileScreen(),
     ];
 
@@ -32,6 +33,7 @@ class _MainDashboardScreenState extends State<MainDashboardScreen> {
       items: <Widget>[
         Icon(Icons.home, size: 30, color: Colors.white,),
         Icon(Icons.add, size: 30,  color: Colors.white,),
+        Icon(Icons.mark_chat_unread_outlined, size: 25,  color: Colors.white,),
         Icon(Icons.person_outline, size: 30,  color: Colors.white,),
       ],
       color: AppColors.themecolor,

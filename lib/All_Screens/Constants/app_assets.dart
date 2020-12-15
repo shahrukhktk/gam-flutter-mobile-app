@@ -32,7 +32,6 @@ class Strings_Text
   static const String joinusnow="Nouveau membre?";
   static const String register="Rejoignez nous maintenant";
 
-
   //congrats page text
   static const String congrats="Félicitations !";
   static const String congratstag="Nouveau profiter de la vie pendant le temps que vous venez enregistré!";

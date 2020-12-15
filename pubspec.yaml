@@ -56,7 +56,7 @@ flutter:
     - images/edit_icon.png
     - images/calendar_icon.png
     - images/scan_ic.png
-    - lic_user_image.png
+    - images/lic_user_image.png
     - images/edit_profileicon.png
     - images/ic_user_focused.png
     - images/ic_user_unfocused.png
@@ -74,6 +74,10 @@ flutter:
     - images/ic_mileage.png
     - images/ic_car_insurance.png
     - images/ic_car.png
+    - images/javier_img.png
+    - images/alex_img.png
+    - images/daria_img.png
+    - images/go_btn.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -87,6 +91,13 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Playfair_Display
+      fonts:
+        - asset: fonts/playfairregular.ttf
+        - asset: fonts/playfairmediumitalic.ttf
+        - asset: fonts/playfairsemibold.ttf
+        - asset: fonts/playfairbold.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
