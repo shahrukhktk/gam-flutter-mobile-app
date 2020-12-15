@@ -14,7 +14,8 @@ class firstname_textfield extends StatelessWidget {
         decoration: InputDecoration(
           hoverColor: Colors.grey,
           focusColor: AppColors.accentcolor,
-          labelText: text,
+          hintText: text,
+          hintStyle: TextStyle(fontSize: 15.0, color: Colors.grey, fontFamily: "Playfair_Display"),
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           suffixIcon: Image(image: AssetImage('images/ic_user_focused.png'),),
           fillColor: AppColors.accentcolor,
@@ -51,7 +52,8 @@ class lastname_textfield extends StatelessWidget {
         decoration: InputDecoration(
           hoverColor: Colors.grey,
           focusColor: AppColors.accentcolor,
-          labelText: text,
+          hintText: text,
+          hintStyle: TextStyle(fontSize: 15.0, color: Colors.grey, fontFamily: "Playfair_Display"),
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           suffixIcon: Image(image: AssetImage('images/ic_user_focused.png'),),
           fillColor: AppColors.accentcolor,
@@ -88,8 +90,8 @@ class dob_textfield extends StatelessWidget {
         decoration: InputDecoration(
           hoverColor: Colors.grey,
           focusColor: AppColors.accentcolor,
-          labelText: text,
-          contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+          hintText: text,
+          hintStyle: TextStyle(fontSize: 15.0, color: Colors.grey, fontFamily: "Playfair_Display"),
           suffixIcon: Image(image: AssetImage('images/ic_calendar_foc.png'),),
           fillColor: AppColors.accentcolor,
           focusedBorder: OutlineInputBorder(
@@ -125,7 +127,8 @@ class password_Textfield extends StatelessWidget {
         decoration: InputDecoration(
           hoverColor: Colors.grey,
           focusColor: AppColors.accentcolor,
-          labelText: text,
+          hintText: text,
+          hintStyle: TextStyle(fontSize: 15.0, color: Colors.grey, fontFamily: "Playfair_Display"),
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           suffixIcon: Image(image: AssetImage('images/ic_pass_foc.png'),),
           fillColor: AppColors.accentcolor,
@@ -162,7 +165,8 @@ class phone_Textfield extends StatelessWidget {
         decoration: InputDecoration(
           hoverColor: Colors.grey,
           focusColor: AppColors.accentcolor,
-          labelText: text,
+          hintText: text,
+          hintStyle: TextStyle(fontSize: 15.0, color: Colors.grey, fontFamily: "Playfair_Display"),
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           suffixIcon: Image(image: AssetImage('images/ic_phone_foc.png'),),
           fillColor: AppColors.accentcolor,
@@ -199,7 +203,8 @@ class email_Textfield extends StatelessWidget {
         decoration: InputDecoration(
           hoverColor: Colors.grey,
           focusColor: AppColors.accentcolor,
-          labelText: text,
+          hintText: text,
+          hintStyle: TextStyle(fontSize: 15.0, color: Colors.grey, fontFamily: "Playfair_Display"),
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           suffixIcon: Image(image: AssetImage('images/ic_email_foc.png'),),
           fillColor: AppColors.accentcolor,
@@ -237,7 +242,8 @@ class name_ofvehicle extends StatelessWidget {
         decoration: InputDecoration(
           hoverColor: Colors.grey,
           focusColor: AppColors.accentcolor,
-          labelText: text,
+          hintText: text,
+          hintStyle: TextStyle(fontSize: 15.0, color: Colors.grey, fontFamily: "Playfair_Display"),
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           suffixIcon: Image(image: AssetImage('images/ic_car.png'),),
           fillColor: AppColors.accentcolor,
@@ -274,7 +280,8 @@ class make_ofvehicle extends StatelessWidget {
         decoration: InputDecoration(
           hoverColor: Colors.grey,
           focusColor: AppColors.accentcolor,
-          labelText: text,
+          hintText: text,
+          hintStyle: TextStyle(fontSize: 15.0, color: Colors.grey, fontFamily: "Playfair_Display"),
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           suffixIcon: Image(image: AssetImage('images/ic_car_insurance.png'),),
           fillColor: AppColors.accentcolor,
@@ -311,7 +318,8 @@ class mileage_ofvehicle extends StatelessWidget {
         decoration: InputDecoration(
           hoverColor: Colors.grey,
           focusColor: AppColors.accentcolor,
-          labelText: text,
+          hintText: text,
+          hintStyle: TextStyle(fontSize: 15.0, color: Colors.grey, fontFamily: "Playfair_Display"),
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           suffixIcon: Image(image: AssetImage('images/ic_mileage.png'),),
           fillColor: AppColors.accentcolor,

@@ -86,7 +86,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                         color: AppColors.themecolor,
                         child: Center(
                           child: Text(Strings_Text.saveupdates, style: TextStyle(
-                              color: Colors.white, fontSize: 16.0
+                              color: Colors.white, fontSize: 16.0, fontFamily: "Playfair_Display"
                           ),),
                         ),
                       ),
