@@ -132,7 +132,7 @@ class _InboxConversationState extends State<InboxConversation> {
                             fillColor: Colors.white,
                             focusColor: Colors.white,
                             border: InputBorder.none, hintText: 'Tapez le message ici...',
-                            hintStyle: TextStyle(fontSize: 16.0, color: Colors.white),
+                            hintStyle: TextStyle(fontSize: 16.0, color: Colors.white, fontFamily: "Playfair_Display"),
                           ),
                           onSubmitted: (String vehicle){},
                         ),
@@ -166,11 +166,11 @@ class _InboxConversationState extends State<InboxConversation> {
               top: 15,
               bottom: 15
           ),
-          height: MediaQuery.of(context).size.width * 0.20,
+          height: MediaQuery.of(context).size.width * 0.25,
           child: Text(
             "Hey! Je vais bien. Et pour sûr! Quand le veux-tu et s'il vous plaît dites-moi vos besoins.",
             style: TextStyle(
-                fontFamily: 'Monteserrat',
+                fontFamily: 'Playfair_Display',
                 fontSize: 14,
                 color: Colors.black),
           ),
@@ -202,11 +202,11 @@ class _InboxConversationState extends State<InboxConversation> {
 
           width: MediaQuery.of(context).size.width * 0.65,
           padding: EdgeInsets.all(12),
-          height: MediaQuery.of(context).size.width * 0.20,
+          height: MediaQuery.of(context).size.width * 0.25,
           child: Text(
             "Hey! Comment ça va? Je regarde pour une voiture d'assurance neuve marque et modèle.",
             style: TextStyle(
-                fontFamily: 'Monteserrat',
+                fontFamily: 'Playfair_Display',
                 fontSize: 14,
                 color: Colors.white),
           ),
