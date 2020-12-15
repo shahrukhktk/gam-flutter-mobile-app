@@ -108,6 +108,51 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
 
+              Padding(
+                padding: const EdgeInsets.only(top: 35.0, left: 8, right: 8),
+                child: Column(
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Image(image: AssetImage('images/expirydate_icon.png')),
+                        Text("Date \nd'expiration", style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal, color: Colors.grey, fontFamily: "Playfair_Display"),),
+                        SizedBox(width: 10,),
+                        Image(image: AssetImage('images/insurance_nmbr_icon.png')),
+                        Text("Numéro \nd'assurance", style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal, color: Colors.grey, fontFamily: "Playfair_Display"),),
+                      ],
+                    ),
+
+                    SizedBox(height: 15,),
+
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Image(image: AssetImage('images/expirydate_icon.png')),
+                        Text("Numéro \nd'immatriculation", style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal, color: Colors.grey, fontFamily: "Playfair_Display"),),
+                        Image(image: AssetImage('images/insurance_nmbr_icon.png')),
+                        Text("Année \ndu véhicule", style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal, color: Colors.grey, fontFamily: "Playfair_Display"),),
+                      ],
+                    ),
+
+                    SizedBox(height: 15,),
+
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Image(image: AssetImage('images/visittechnique_icon.png')),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 20.0),
+                          child: Text("Visite technique", style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal, color: Colors.grey, fontFamily: "Playfair_Display"),),
+                        ),
+                      ],
+                    ),
+
+
+                  ],
+                ),
+              ),
+
               
             ],
           )
