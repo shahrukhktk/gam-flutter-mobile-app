@@ -95,6 +95,18 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
 
+              Padding(
+                padding: const EdgeInsets.only(top: 35.0, left: 8, right: 8),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Image(image: AssetImage('images/ic_history.png')),
+                    Image(image: AssetImage('images/ic_booking_mechanic.png')),
+                    Image(image: AssetImage('images/ic_car_wash.png')),
+                    Image(image: AssetImage('images/ic_modify_carinfo.png')),
+                  ],
+                ),
+              ),
 
               
             ],

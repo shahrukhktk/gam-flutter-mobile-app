@@ -78,6 +78,14 @@ flutter:
     - images/alex_img.png
     - images/daria_img.png
     - images/go_btn.png
+    - images/ic_history.png
+    - images/ic_booking_mechanic.png
+    - images/ic_car_wash.png
+    - images/ic_modify_carinfo.png
+    - images/expirydate_icon.png
+    - images/insurance_nmbr_icon.png
+    - images/visittechnique_icon.png
+    -
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
