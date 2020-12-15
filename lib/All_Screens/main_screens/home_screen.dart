@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 12.0),
                   child: Text('Home Screen', style: TextStyle(
-                      fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black
+                      fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black, fontFamily: "Playfair_Display"
                   ),
                     textAlign: TextAlign.end,),
                 ),

@@ -32,7 +32,7 @@ class _AddNewVehicleState extends State<AddNewVehicle> {
                     Padding(
                       padding: const EdgeInsets.only(left: 12.0),
                       child: Text(Strings_Text.addvehicle, style: TextStyle(
-                          fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black
+                          fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black, fontFamily: "Playfair_Display"
                       ),
                         textAlign: TextAlign.end,),
                     ),
@@ -132,7 +132,7 @@ class _AddNewVehicleState extends State<AddNewVehicle> {
                         color: AppColors.themecolor,
                         child: Center(
                           child: Text(Strings_Text.addvehicle, style: TextStyle(
-                              color: Colors.white, fontSize: 16.0
+                              color: Colors.white, fontSize: 16.0, fontFamily: "Playfair_Display"
                           ),),
                         ),
                       ),
